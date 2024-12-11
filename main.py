@@ -1,6 +1,8 @@
 import pandas as pd
 import seaborn as sns
+import matplotlib as mpl
 import matplotlib.pyplot as plt
+mpl.use('TkAgg')
 
 df_raw =pd.read_csv('data/kefir_biomass.csv')
 df_raw = df_raw.rename(
